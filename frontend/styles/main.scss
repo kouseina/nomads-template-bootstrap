@@ -300,6 +300,12 @@ header{
             color: #b1b1b1;
         } 
 
+        h3{
+            font-weight: 300;
+            font-size: 14px;
+            color: #071C4D;
+        }
+
         .trip-informations{
             th{
                 font-weight: 300;
@@ -312,17 +318,59 @@ header{
                 font-size: 18px;
                 color: #b1b1b1;
             }
+
+            .text-blue{
+                color: #071C4D;
+                font-weight: bold;
+            }
+
+            .text-orange{
+                color: #ff9e53;
+                font-weight: bold;
+            }
         }
 
-        h3{
-            font-weight: 600;
+        .payment-instructions{
+            font-weight: 300;
             font-size: 14px;
-            color: #071C4D;
+            color: #b1b1b1;
+        }     
+
+        .bank{
+            .bank-item{
+                h3{
+                    font-size: 18px;
+                    color: #071C4D;
+                    margin-bottom: 0;
+                }
+
+                p{
+                    margin-bottom: 0;
+                }
+
+                .description{
+                    margin-left: 10px;
+                    overflow: hidden;
+                    float: left;
+
+                    p{
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: #071C4D;
+                    }
+                }
+            }
+
+            .bank-mage{
+                width: 45px;
+                height: 45px;
+                float: left;
+            }
         }
 
         .disclaimer{
             font-weight: 300;
-            font-size: 34px;
+            font-size: 14px;
             color: #b1b1b1;
         }
 
@@ -422,3 +470,30 @@ header{
     }
 }
 
+
+.section-success{
+    height: 90vh;
+
+    h1{
+        font-weight: 600;
+        font-size: 26px;
+        color: #071C4D;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .btn-home-page{
+        border-radius: 4px;
+        background-color: #071C4D;
+        color: #fff;
+
+        &:hover{
+            color: #fff;
+            background-color: #2a488e;
+        }
+    }
+}
